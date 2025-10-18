@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Alexandro Rambing</title>
+  <style>
+    /* ====== GAYA UMUM HALAMAN ====== */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f3f6fb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ====== BAGIAN HEADER ====== */
+    header {
+      background: linear-gradient(135deg, #0055aa, #0088ff);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+
+    /* ====== FOTO PROFIL ====== */
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease;
+    }
+
+    header img:hover {
+      transform: scale(1.05);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      line-height: 1.6;
+    }
+
+    /* ====== BAGIAN KONTEN ====== */
+    section {
+      background: white;
+      margin: 1.5rem auto;
+      padding: 1.8rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      max-width: 900px;
+    }
+
+    h2 {
+      color: #0055aa;
+      border-bottom: 2px solid #0055aa;
+      padding-bottom: 0.5rem;
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    /* ====== TOMBOL ====== */
+    .button {
+      display: inline-block;
+      background: #0055aa;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background: #0077ff;
+    }
+
+    /* ====== FRAME UNTUK PDF ====== */
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    /* ====== FOOTER ====== */
+    footer {
+      background: #0055aa;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+
+    /* ====== RESPONSIVE DESIGN ====== */
+    @media (max-width: 600px) {
+      header img {
+        width: 120px;
+        height: 120px;
+      }
+
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      iframe {
+        height: 400px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Ganti nama file gambar di bawah sesuai foto kamu -->
+    <img src="https://drive.google.com/file/d/1bAMQ9qb7KU5o9l26YkQRrw3BHdtvhlFJ/view?usp=drivesdk" alt="Foto Profil Alexandro Rambing">
+
+    <h1>Alexandro Rambing</h1>
+    <p>
+      Mahasiswa Kimia | Universitas Sam Ratulangi, Manado<br>
+      NIM: <strong>241011010015</strong> | Status: <strong>Taken ❤️</strong>
+    </p>
+  </header>
+
+  <section>
+    <h2>Tentang Saya</h2>
+    <p>
+      Halo! Saya <strong>Alexandro Rambing</strong>, mahasiswa jurusan <strong>Kimia</strong> di Universitas Sam Ratulangi, Manado.
+      Website ini dibuat sebagai bagian dari tugas mata kuliah <em>Teknologi Informasi.</em>
+    </p>
+  </section>
+
+  <section>
+    <h2>Makalah Saya</h2>
+    <p>
+      Makalah saya ialah 
+      <strong>“NaClO.”</strong>  
+      Makalah bisa dibaca dengan mengakses link dibawah
+    </p>
+
+    <!-- Tampilkan file PDF dari Google Drive -->
+    <iframe src="https://drive.google.com/file/d/1kajLNvt4eAcxLQLlRMP3dZVN8pHgpWoo/preview" allow="autoplay"></iframe>
+
+    <!-- Tombol menuju tautan asli Google Drive -->
+    <a href="https://drive.google.com/file/d/1kajLNvt4eAcxLQLlRMP3dZVN8pHgpWoo/view?usp=drivesdk" 
+       class="button" target="_blank">📄 Buka / Unduh di Google Drive</a>
+  </section>
+
+  <section>
+    <h2>Kontak</h2>
+    <p>📧 Email: alexandrorambing101@student.unsrat.ac.id</p>
+    <p>📱 Instagram: <a href="https://www.instagram.com/a_mikhael26?igsh=Ym9td2FrMmJlZWQ=" target="_blank">@alexandrorambing</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Alexandro Rambing | Tugas Teknologi Informasi
+  </footer>
+</body>
+</html>
